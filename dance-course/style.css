@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.global-notification-wrapper {
+    background-color: black;
+}
+
+.global-notification {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 30px 0;
+}
+
+.global-notification-left .global-notification-list {
+    display: flex;
+    align-self: center;
+    column-gap: 20px;
+}
+
+.global-notification-list .global-notification-list-item {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.global-notification-list-item i {
+    color: red;
+}
+
+.global-notification-list-item p {
+    font-weight: 400;
+}
+
+.global-notification-right {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.global-notification-right p {
+    font-size: 20px;
+}
+
+.global-notification-right .global-notification-right-list {
+    display: flex;
+    align-self: center;
+    column-gap: 12px;
+}
+
+.global-notification-right .global-notification-right-list a {
+    color: white;
+    font-size: 15px;
+    transition: all .3s ease;
+}
+
+.global-notification-right .global-notification-right-list a:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.headerr-wrapper {
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.header h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header .header-list {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.header-list .header-list-item {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header .header-right {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.header-right a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+}
+
+.header-right a i {
+    font-size: 14px
+}
+
+.header-right .header-right-button {
+    display: inline-block;
+    padding: 8px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    text-align: center;
+    border: 1px solid red;
+    border-radius: 5px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.header-right .header-right-button:hover {
+    background-color: white;
+    color: red;
+}
+
+.header-content-wrapper {
+    background-image: url("https://themeholy.com/wordpress/test/wp-content/uploads/2023/09/hero_bg_1_1-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    opacity: .9;
+}
+
+.header-content-wrapper .header-content {
+    padding: 20% 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.header-content h1 {
+    color: red;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.header-info-wrapper .header-info {
+    display: flex;
+    align-items: center;
+    column-gap: 80px;
+    padding: 60px 0;
+}
+
+.header-info-wrapper .header-info-left img {
+    border-radius: 20px;
+}
+
+.header-info-right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.header-info-right h4 {
+    font-size: 30px;
+    color: red;
+}
+
+.header-info-right p {
+    font-size: 18px;
+    color: gray;
+}
+
+.header-info-right .header-info-right-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding: 8px 15px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 10px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+.header-info-right .header-info-right-button:hover {
+    background-color: white;
+    color: red;
+}
