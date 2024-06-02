@@ -1,11 +1,11 @@
-//document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
 
-   // var button = document.getElementById("myButton");
+    var button = document.getElementById("myButton");
     
    
-  //  button.addEventListener("click", function() {
+   button.addEventListener("click", function() {
        
-    //    var message = document.getElementById("message");
+       var message = document.getElementById("message");
         
        
-      //  message.textContent = "Butona tıkladınız!";
+        message.textContent = "Butona tıkladınız!";
